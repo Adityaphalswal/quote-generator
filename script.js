@@ -28,7 +28,7 @@ function newQuote(){
     if(!quote.author){
         authorText.textContent = 'Unkown'
     } else {
-        authorText.textContent = quote.author;
+       quoteText.textContent = quote.author;
     }
     // Check Quote length to  determine styling
     if (quote.text.length > 120 ){
